@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044366F21D2CFE190054EA01 /* JXHTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F11D2CFE190054EA01 /* JXHTabBar.swift */; };
-		044366F41D2D00810054EA01 /* UIButtion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F31D2D00810054EA01 /* UIButtion+Extension.swift */; };
-		044366F61D2D197F0054EA01 /* JXHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F51D2D197F0054EA01 /* JXHExtension.swift */; };
-		0464B5231D2CE81900CAF5E6 /* JXHEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */; };
-		0464B5251D2CE84200CAF5E6 /* JXHNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */; };
-		0464B5271D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5261D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift */; };
-		0464B5291D2CE86500CAF5E6 /* JXHMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5281D2CE86500CAF5E6 /* JXHMeViewController.swift */; };
+		044367131D2D1D0A0054EA01 /* JXHEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366FA1D2D1D0A0054EA01 /* JXHEssenceViewController.swift */; };
+		044367141D2D1D0A0054EA01 /* JXHFriendTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366FF1D2D1D0A0054EA01 /* JXHFriendTrendsViewController.swift */; };
+		044367151D2D1D0A0054EA01 /* JXHMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044367041D2D1D0A0054EA01 /* JXHMeViewController.swift */; };
+		044367161D2D1D0A0054EA01 /* JXHNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044367091D2D1D0A0054EA01 /* JXHNewViewController.swift */; };
+		044367171D2D1D0A0054EA01 /* JXHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443670E1D2D1D0A0054EA01 /* JXHExtension.swift */; };
+		044367181D2D1D0A0054EA01 /* JXHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044367101D2D1D0A0054EA01 /* JXHTabBarController.swift */; };
+		044367191D2D1D0A0054EA01 /* JXHTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044367121D2D1D0A0054EA01 /* JXHTabBar.swift */; };
 		04ED0C231D2CB541001B618D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C221D2CB541001B618D /* AppDelegate.swift */; };
 		04ED0C281D2CB541001B618D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED0C261D2CB541001B618D /* Main.storyboard */; };
 		04ED0C2A1D2CB541001B618D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ED0C291D2CB541001B618D /* Assets.xcassets */; };
 		04ED0C2D1D2CB541001B618D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED0C2B1D2CB541001B618D /* LaunchScreen.storyboard */; };
 		04ED0C381D2CB541001B618D /* JXHBaiSiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C371D2CB541001B618D /* JXHBaiSiTests.swift */; };
 		04ED0C431D2CB541001B618D /* JXHBaiSiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C421D2CB541001B618D /* JXHBaiSiUITests.swift */; };
-		04ED0C521D2CB8C4001B618D /* JXHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C501D2CB8C4001B618D /* JXHTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044366F11D2CFE190054EA01 /* JXHTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBar.swift; sourceTree = "<group>"; };
-		044366F31D2D00810054EA01 /* UIButtion+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButtion+Extension.swift"; sourceTree = "<group>"; };
-		044366F51D2D197F0054EA01 /* JXHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHExtension.swift; sourceTree = "<group>"; };
-		0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHEssenceViewController.swift; sourceTree = "<group>"; };
-		0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHNewViewController.swift; sourceTree = "<group>"; };
-		0464B5261D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHFriendTrendsViewController.swift; sourceTree = "<group>"; };
-		0464B5281D2CE86500CAF5E6 /* JXHMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHMeViewController.swift; sourceTree = "<group>"; };
+		044366FA1D2D1D0A0054EA01 /* JXHEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHEssenceViewController.swift; sourceTree = "<group>"; };
+		044366FF1D2D1D0A0054EA01 /* JXHFriendTrendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHFriendTrendsViewController.swift; sourceTree = "<group>"; };
+		044367041D2D1D0A0054EA01 /* JXHMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHMeViewController.swift; sourceTree = "<group>"; };
+		044367091D2D1D0A0054EA01 /* JXHNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHNewViewController.swift; sourceTree = "<group>"; };
+		0443670E1D2D1D0A0054EA01 /* JXHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHExtension.swift; sourceTree = "<group>"; };
+		044367101D2D1D0A0054EA01 /* JXHTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBarController.swift; sourceTree = "<group>"; };
+		044367121D2D1D0A0054EA01 /* JXHTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBar.swift; sourceTree = "<group>"; };
 		04ED0C1F1D2CB541001B618D /* JXHBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXHBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED0C221D2CB541001B618D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ED0C271D2CB541001B618D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +59,6 @@
 		04ED0C3E1D2CB541001B618D /* JXHBaiSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXHBaiSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED0C421D2CB541001B618D /* JXHBaiSiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXHBaiSiUITests.swift; sourceTree = "<group>"; };
 		04ED0C441D2CB541001B618D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04ED0C501D2CB8C4001B618D /* JXHTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +86,180 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044366F71D2D1D0A0054EA01 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				044366F81D2D1D0A0054EA01 /* Essence-精华 */,
+				044366FD1D2D1D0A0054EA01 /* FriendTrends-关注 */,
+				044367021D2D1D0A0054EA01 /* Me-我 */,
+				044367071D2D1D0A0054EA01 /* New-新帖 */,
+				0443670C1D2D1D0A0054EA01 /* Other-其他 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		044366F81D2D1D0A0054EA01 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				044366F91D2D1D0A0054EA01 /* Controller */,
+				044366FB1D2D1D0A0054EA01 /* Model */,
+				044366FC1D2D1D0A0054EA01 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		044366F91D2D1D0A0054EA01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044366FA1D2D1D0A0054EA01 /* JXHEssenceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044366FB1D2D1D0A0054EA01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044366FC1D2D1D0A0054EA01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044366FD1D2D1D0A0054EA01 /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				044366FE1D2D1D0A0054EA01 /* Controller */,
+				044367001D2D1D0A0054EA01 /* Model */,
+				044367011D2D1D0A0054EA01 /* View */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		044366FE1D2D1D0A0054EA01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044366FF1D2D1D0A0054EA01 /* JXHFriendTrendsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044367001D2D1D0A0054EA01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044367011D2D1D0A0054EA01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044367021D2D1D0A0054EA01 /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				044367031D2D1D0A0054EA01 /* Controller */,
+				044367051D2D1D0A0054EA01 /* Model */,
+				044367061D2D1D0A0054EA01 /* View */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		044367031D2D1D0A0054EA01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044367041D2D1D0A0054EA01 /* JXHMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044367051D2D1D0A0054EA01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044367061D2D1D0A0054EA01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044367071D2D1D0A0054EA01 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				044367081D2D1D0A0054EA01 /* Controller */,
+				0443670A1D2D1D0A0054EA01 /* Model */,
+				0443670B1D2D1D0A0054EA01 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		044367081D2D1D0A0054EA01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044367091D2D1D0A0054EA01 /* JXHNewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0443670A1D2D1D0A0054EA01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0443670B1D2D1D0A0054EA01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0443670C1D2D1D0A0054EA01 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				0443670D1D2D1D0A0054EA01 /* Category */,
+				0443670F1D2D1D0A0054EA01 /* Controller */,
+				044367111D2D1D0A0054EA01 /* View */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		0443670D1D2D1D0A0054EA01 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0443670E1D2D1D0A0054EA01 /* JXHExtension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0443670F1D2D1D0A0054EA01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044367101D2D1D0A0054EA01 /* JXHTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044367111D2D1D0A0054EA01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044367121D2D1D0A0054EA01 /* JXHTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04ED0C161D2CB541001B618D = {
 			isa = PBXGroup;
 			children = (
@@ -112,14 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				04ED0C221D2CB541001B618D /* AppDelegate.swift */,
-				04ED0C501D2CB8C4001B618D /* JXHTabBarController.swift */,
-				044366F11D2CFE190054EA01 /* JXHTabBar.swift */,
-				044366F51D2D197F0054EA01 /* JXHExtension.swift */,
-				044366F31D2D00810054EA01 /* UIButtion+Extension.swift */,
-				0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */,
-				0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */,
-				0464B5261D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift */,
-				0464B5281D2CE86500CAF5E6 /* JXHMeViewController.swift */,
+				044366F71D2D1D0A0054EA01 /* Classes */,
 				04ED0C261D2CB541001B618D /* Main.storyboard */,
 				04ED0C291D2CB541001B618D /* Assets.xcassets */,
 				04ED0C2B1D2CB541001B618D /* LaunchScreen.storyboard */,
@@ -278,15 +443,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0464B5271D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift in Sources */,
-				0464B5291D2CE86500CAF5E6 /* JXHMeViewController.swift in Sources */,
-				044366F21D2CFE190054EA01 /* JXHTabBar.swift in Sources */,
-				0464B5251D2CE84200CAF5E6 /* JXHNewViewController.swift in Sources */,
-				04ED0C521D2CB8C4001B618D /* JXHTabBarController.swift in Sources */,
+				044367191D2D1D0A0054EA01 /* JXHTabBar.swift in Sources */,
+				044367181D2D1D0A0054EA01 /* JXHTabBarController.swift in Sources */,
+				044367161D2D1D0A0054EA01 /* JXHNewViewController.swift in Sources */,
+				044367131D2D1D0A0054EA01 /* JXHEssenceViewController.swift in Sources */,
 				04ED0C231D2CB541001B618D /* AppDelegate.swift in Sources */,
-				0464B5231D2CE81900CAF5E6 /* JXHEssenceViewController.swift in Sources */,
-				044366F61D2D197F0054EA01 /* JXHExtension.swift in Sources */,
-				044366F41D2D00810054EA01 /* UIButtion+Extension.swift in Sources */,
+				044367141D2D1D0A0054EA01 /* JXHFriendTrendsViewController.swift in Sources */,
+				044367171D2D1D0A0054EA01 /* JXHExtension.swift in Sources */,
+				044367151D2D1D0A0054EA01 /* JXHMeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
