@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		044366F21D2CFE190054EA01 /* JXHTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F11D2CFE190054EA01 /* JXHTabBar.swift */; };
 		044366F41D2D00810054EA01 /* UIButtion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F31D2D00810054EA01 /* UIButtion+Extension.swift */; };
-		044366F61D2D197F0054EA01 /* JXHCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F51D2D197F0054EA01 /* JXHCommon.swift */; };
+		044366F61D2D197F0054EA01 /* JXHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F51D2D197F0054EA01 /* JXHExtension.swift */; };
 		0464B5231D2CE81900CAF5E6 /* JXHEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */; };
 		0464B5251D2CE84200CAF5E6 /* JXHNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */; };
 		0464B5271D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5261D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift */; };
@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		044366F11D2CFE190054EA01 /* JXHTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBar.swift; sourceTree = "<group>"; };
 		044366F31D2D00810054EA01 /* UIButtion+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButtion+Extension.swift"; sourceTree = "<group>"; };
-		044366F51D2D197F0054EA01 /* JXHCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHCommon.swift; sourceTree = "<group>"; };
+		044366F51D2D197F0054EA01 /* JXHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHExtension.swift; sourceTree = "<group>"; };
 		0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHEssenceViewController.swift; sourceTree = "<group>"; };
 		0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHNewViewController.swift; sourceTree = "<group>"; };
 		0464B5261D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHFriendTrendsViewController.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 				04ED0C221D2CB541001B618D /* AppDelegate.swift */,
 				04ED0C501D2CB8C4001B618D /* JXHTabBarController.swift */,
 				044366F11D2CFE190054EA01 /* JXHTabBar.swift */,
-				044366F51D2D197F0054EA01 /* JXHCommon.swift */,
+				044366F51D2D197F0054EA01 /* JXHExtension.swift */,
 				044366F31D2D00810054EA01 /* UIButtion+Extension.swift */,
 				0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */,
 				0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */,
@@ -285,7 +285,7 @@
 				04ED0C521D2CB8C4001B618D /* JXHTabBarController.swift in Sources */,
 				04ED0C231D2CB541001B618D /* AppDelegate.swift in Sources */,
 				0464B5231D2CE81900CAF5E6 /* JXHEssenceViewController.swift in Sources */,
-				044366F61D2D197F0054EA01 /* JXHCommon.swift in Sources */,
+				044366F61D2D197F0054EA01 /* JXHExtension.swift in Sources */,
 				044366F41D2D00810054EA01 /* UIButtion+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

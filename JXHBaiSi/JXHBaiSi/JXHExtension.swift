@@ -111,6 +111,6 @@ extension UIButton {
 
 
 
-class JXHCommon: NSObject {
+class JXHExtension: NSObject {
 
 }
