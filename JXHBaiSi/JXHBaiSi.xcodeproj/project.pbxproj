@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044366F21D2CFE190054EA01 /* JXHTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F11D2CFE190054EA01 /* JXHTabBar.swift */; };
+		044366F41D2D00810054EA01 /* UIButtion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F31D2D00810054EA01 /* UIButtion+Extension.swift */; };
+		044366F61D2D197F0054EA01 /* JXHCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044366F51D2D197F0054EA01 /* JXHCommon.swift */; };
+		0464B5231D2CE81900CAF5E6 /* JXHEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */; };
+		0464B5251D2CE84200CAF5E6 /* JXHNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */; };
+		0464B5271D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5261D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift */; };
+		0464B5291D2CE86500CAF5E6 /* JXHMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464B5281D2CE86500CAF5E6 /* JXHMeViewController.swift */; };
 		04ED0C231D2CB541001B618D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C221D2CB541001B618D /* AppDelegate.swift */; };
-		04ED0C251D2CB541001B618D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C241D2CB541001B618D /* ViewController.swift */; };
 		04ED0C281D2CB541001B618D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED0C261D2CB541001B618D /* Main.storyboard */; };
 		04ED0C2A1D2CB541001B618D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ED0C291D2CB541001B618D /* Assets.xcassets */; };
 		04ED0C2D1D2CB541001B618D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED0C2B1D2CB541001B618D /* LaunchScreen.storyboard */; };
 		04ED0C381D2CB541001B618D /* JXHBaiSiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C371D2CB541001B618D /* JXHBaiSiTests.swift */; };
 		04ED0C431D2CB541001B618D /* JXHBaiSiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C421D2CB541001B618D /* JXHBaiSiUITests.swift */; };
+		04ED0C521D2CB8C4001B618D /* JXHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C501D2CB8C4001B618D /* JXHTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044366F11D2CFE190054EA01 /* JXHTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBar.swift; sourceTree = "<group>"; };
+		044366F31D2D00810054EA01 /* UIButtion+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButtion+Extension.swift"; sourceTree = "<group>"; };
+		044366F51D2D197F0054EA01 /* JXHCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHCommon.swift; sourceTree = "<group>"; };
+		0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHEssenceViewController.swift; sourceTree = "<group>"; };
+		0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHNewViewController.swift; sourceTree = "<group>"; };
+		0464B5261D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHFriendTrendsViewController.swift; sourceTree = "<group>"; };
+		0464B5281D2CE86500CAF5E6 /* JXHMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHMeViewController.swift; sourceTree = "<group>"; };
 		04ED0C1F1D2CB541001B618D /* JXHBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXHBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED0C221D2CB541001B618D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04ED0C241D2CB541001B618D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04ED0C271D2CB541001B618D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04ED0C291D2CB541001B618D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ED0C2C1D2CB541001B618D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		04ED0C3E1D2CB541001B618D /* JXHBaiSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXHBaiSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED0C421D2CB541001B618D /* JXHBaiSiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXHBaiSiUITests.swift; sourceTree = "<group>"; };
 		04ED0C441D2CB541001B618D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ED0C501D2CB8C4001B618D /* JXHTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				04ED0C221D2CB541001B618D /* AppDelegate.swift */,
-				04ED0C241D2CB541001B618D /* ViewController.swift */,
+				04ED0C501D2CB8C4001B618D /* JXHTabBarController.swift */,
+				044366F11D2CFE190054EA01 /* JXHTabBar.swift */,
+				044366F51D2D197F0054EA01 /* JXHCommon.swift */,
+				044366F31D2D00810054EA01 /* UIButtion+Extension.swift */,
+				0464B5221D2CE81900CAF5E6 /* JXHEssenceViewController.swift */,
+				0464B5241D2CE84200CAF5E6 /* JXHNewViewController.swift */,
+				0464B5261D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift */,
+				0464B5281D2CE86500CAF5E6 /* JXHMeViewController.swift */,
 				04ED0C261D2CB541001B618D /* Main.storyboard */,
 				04ED0C291D2CB541001B618D /* Assets.xcassets */,
 				04ED0C2B1D2CB541001B618D /* LaunchScreen.storyboard */,
@@ -187,6 +208,7 @@
 		04ED0C171D2CB541001B618D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JXH;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = JXH;
@@ -256,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04ED0C251D2CB541001B618D /* ViewController.swift in Sources */,
+				0464B5271D2CE85100CAF5E6 /* JXHFriendTrendsViewController.swift in Sources */,
+				0464B5291D2CE86500CAF5E6 /* JXHMeViewController.swift in Sources */,
+				044366F21D2CFE190054EA01 /* JXHTabBar.swift in Sources */,
+				0464B5251D2CE84200CAF5E6 /* JXHNewViewController.swift in Sources */,
+				04ED0C521D2CB8C4001B618D /* JXHTabBarController.swift in Sources */,
 				04ED0C231D2CB541001B618D /* AppDelegate.swift in Sources */,
+				0464B5231D2CE81900CAF5E6 /* JXHEssenceViewController.swift in Sources */,
+				044366F61D2D197F0054EA01 /* JXHCommon.swift in Sources */,
+				044366F41D2D00810054EA01 /* UIButtion+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
