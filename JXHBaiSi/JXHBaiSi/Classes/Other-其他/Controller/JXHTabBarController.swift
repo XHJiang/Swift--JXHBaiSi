@@ -72,9 +72,9 @@ class JXHTabBarController: UITabBarController {
         vc.tabBarItem.image = image
         vc.tabBarItem.selectedImage = selectedImage
         
+        let nv = JXHNavigationController(rootViewController: vc)
         
-        
-        addChildViewController(vc)
+        addChildViewController(nv)
         
     }
 

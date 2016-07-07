@@ -14,6 +14,7 @@
 		044367171D2D1D0A0054EA01 /* JXHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443670E1D2D1D0A0054EA01 /* JXHExtension.swift */; };
 		044367181D2D1D0A0054EA01 /* JXHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044367101D2D1D0A0054EA01 /* JXHTabBarController.swift */; };
 		044367191D2D1D0A0054EA01 /* JXHTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044367121D2D1D0A0054EA01 /* JXHTabBar.swift */; };
+		048BD7821D2DECE000FB10BC /* JXHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048BD7811D2DECE000FB10BC /* JXHNavigationController.swift */; };
 		04ED0C231D2CB541001B618D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED0C221D2CB541001B618D /* AppDelegate.swift */; };
 		04ED0C281D2CB541001B618D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED0C261D2CB541001B618D /* Main.storyboard */; };
 		04ED0C2A1D2CB541001B618D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ED0C291D2CB541001B618D /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		0443670E1D2D1D0A0054EA01 /* JXHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHExtension.swift; sourceTree = "<group>"; };
 		044367101D2D1D0A0054EA01 /* JXHTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBarController.swift; sourceTree = "<group>"; };
 		044367121D2D1D0A0054EA01 /* JXHTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHTabBar.swift; sourceTree = "<group>"; };
+		048BD7811D2DECE000FB10BC /* JXHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXHNavigationController.swift; sourceTree = "<group>"; };
 		04ED0C1F1D2CB541001B618D /* JXHBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXHBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED0C221D2CB541001B618D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ED0C271D2CB541001B618D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				044367101D2D1D0A0054EA01 /* JXHTabBarController.swift */,
+				048BD7811D2DECE000FB10BC /* JXHNavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -448,6 +451,7 @@
 				044367161D2D1D0A0054EA01 /* JXHNewViewController.swift in Sources */,
 				044367131D2D1D0A0054EA01 /* JXHEssenceViewController.swift in Sources */,
 				04ED0C231D2CB541001B618D /* AppDelegate.swift in Sources */,
+				048BD7821D2DECE000FB10BC /* JXHNavigationController.swift in Sources */,
 				044367141D2D1D0A0054EA01 /* JXHFriendTrendsViewController.swift in Sources */,
 				044367171D2D1D0A0054EA01 /* JXHExtension.swift in Sources */,
 				044367151D2D1D0A0054EA01 /* JXHMeViewController.swift in Sources */,

@@ -89,7 +89,7 @@ extension UIView{
 
 extension UIButton {
     
-    
+    /* 背景图片,没有点击事件 */
     class func creatButton (backImage:UIImage, selectedBackImage:UIImage) -> UIButton {
         let btn = UIButton(type: .Custom)
         btn.setImage(backImage, forState: .Normal)
@@ -98,6 +98,7 @@ extension UIButton {
         return btn
     }
     
+    /* 背景图片,有点击事件 */
     class func creatButton (backImage:UIImage, selectedBackImage:UIImage , target: AnyObject?, action:Selector) -> UIButton {
         let btn = UIButton(type: .Custom)
         btn.setImage(backImage, forState: .Normal)
@@ -106,9 +107,58 @@ extension UIButton {
         btn.sizeToFit()
         return btn
     }
+    /* 按钮图片,没有点击事件 */
+    class func creatButton (Image:UIImage, selectedImage:UIImage) -> UIButton {
+        let btn = UIButton(type: .Custom)
+        btn.setImage(Image, forState: .Normal)
+        btn.setImage(selectedImage, forState: .Selected)
+        btn.sizeToFit()
+        return btn
+    }
+    /* 按钮图片,有点击事件 */
+    class func creatButton (Image:UIImage, selectedImage:UIImage , target: AnyObject?, action:Selector) -> UIButton {
+        let btn = UIButton(type: .Custom)
+        btn.setImage(Image, forState: .Normal)
+        btn.setImage(selectedImage, forState: .Selected)
+        btn.addTarget(target, action: action, forControlEvents: .TouchUpInside)
+        btn.sizeToFit()
+        return btn
+    }
     
+    /* 背景图片,标题,有点击事件 */
+    class func creatButton (backImage:UIImage, selectedBackImage:UIImage , target: AnyObject?, action:Selector, title:String) -> UIButton {
+        let btn = UIButton(type: .Custom)
+        btn.setTitle(title, forState: .Normal)
+        btn.setImage(backImage, forState: .Normal)
+        btn.setImage(selectedBackImage, forState: .Selected)
+        btn.addTarget(target, action: action, forControlEvents: .TouchUpInside)
+        btn.sizeToFit()
+        return btn
+    }
+    
+    /* 按钮图片,标题,有点击事件 */
+    class func creatButton (Image:UIImage, selectedImage:UIImage , target: AnyObject?, action:Selector, title:String) -> UIButton {
+        let btn = UIButton(type: .Custom)
+        btn.setTitle(title, forState: .Normal)
+        btn.setImage(Image, forState: .Normal)
+        btn.setImage(selectedImage, forState: .Selected)
+        btn.addTarget(target, action: action, forControlEvents: .TouchUpInside)
+        btn.sizeToFit()
+        return btn
+    }
 }
 
+extension UIBarButtonItem {
+    
+    class func creatBarButtionItem(backImage:UIImage, selectedBackImage:UIImage , target: AnyObject?, action:Selector) -> UIBarButtonItem {
+        let btn = UIButton(type: .Custom)
+        btn.setImage(backImage, forState: .Normal)
+        btn.setImage(selectedBackImage, forState: .Selected)
+        btn.size = btn.currentBackgroundImage!.size
+        btn.addTarget(target, action: action, forControlEvents: .TouchUpInside)
+        return UIBarButtonItem(customView: btn)
+    }
+}
 
 
 class JXHExtension: NSObject {
